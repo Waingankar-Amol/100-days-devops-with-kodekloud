@@ -38,7 +38,8 @@ sudo systemctl enable --now tomcat`
 sudo chown -R tomcat:tomcat /var/lib/tomcat/webapps`
 
 **Step 6** - From the Jump Host — copy ROOT.war to stapp03
-scp /tmp/ROOT.war banner@stapp03:/tmp/
+
+`scp /tmp/ROOT.war banner@stapp03:/tmp/`
 
 **Step 7** - On App Server 3 — deploy the WAR and finalize
 
